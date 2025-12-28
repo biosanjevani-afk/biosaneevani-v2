@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenFuture - Sustainable Agriculture & Climate Solutions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <a href="#home" class="logo"><img src="logo.png" alt="" /></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!-- <li>
+          <select 
+            name="Partners"
+            id="partnerSelect"
+            onchange="window.location.href=this.value;"
+          >
+            <option value="#partners">Our Teams</option>
+            <option value="#mentor">Our Mentors</option>
+          </select>
+        </li> -->
+
+        <div class="custom-select">
+          <button class="select-btn">Partners ▾</button>
+          <ul class="select-menu">
+            <li><a href="#partners">Our Teams</a></li>
+            <li><a href="#mentor">Our Mentors</a></li>
+          </ul>
+        </div>
+
+        <div class="custom-select">
+          <button class="select-btn">Offering ▾</button>
+          <ul class="select-menu">
+            <li><a href="#blog">Our Services</a></li>
+            <li><a href="/product.html">Our Product</a></li>
+          </ul>
+        </div>
+
+        <!-- <li><a href="#blog">Services</a></li> -->
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="farmer.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-content">
+        <h1>Completing Circularity Waste to Sustainability</h1>
+        <p>Convert Biomass into premium quality organic fertilizer</p>
+        <a href="#contact" class="cta-btn">Get Started</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-content">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="soil.jpg" alt="Organic Farming" />
+          </div>
+          <div class="carousel-item">
+            <img src="wayland.jpg" alt="Sustainable Agriculture" />
+          </div>
+          <div class="carousel-item">
+            <img src="land.jpeg" alt="Green Future" />
+          </div>
+          <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>BioSanjeevani Sustainable Solutions Pvt. Ltd.</h3>
+          <p>
+            Founded in 2025 with a deep sense of purpose, we are a climate and
+            agritech company dedicated to healing Mother Earth through
+            sustainable and regenerative practices. At the heart of our mission
+            is the transformation of fermented organic manure from Compressed
+            Biogas (CBG) plants into premium-quality organic fertilizers,
+            offered under our flagship brand — Jeevani.
+          </p>
+          <p>
+            As we expand our reach through a robust fertilizer distribution
+            network, we also aim to diversify our offerings by sourcing and
+            supplying a wide range of high-quality agri-inputs. Our vision is to
+            empower farmers with affordable, eco-friendly, and effective
+            solutions that enrich soil health, boost productivity, and
+            contribute to a cleaner, greener planet.
+          </p>
+          <div class="about-features">
+            <div class="feature">100% Organic Solutions</div>
+            <div class="feature">Climate Positive Impact</div>
+            <div class="feature">Sustainable Practices</div>
+            <div class="feature">Expert Guidance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary about work -->
+    <section class="about" id="about">
+      <h2 class="section-title">Our vision</h2>
+      <div class="about-content">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <img src="farmer01.jpeg" alt="Organic Farming" />
+          </div>
+          <div class="carousel-item">
+            <img src="farming.jpg" alt="Sustainable Agriculture" />
+          </div>
+          <div class="carousel-item">
+            <img src="farming02.jpg" alt="Green Future" />
+          </div>
+          <div class="carousel-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>Committed to a Greener Tomorrow</h3>
+          <p>
+            To become a leading force in climate and agricultural transformation
+            by creating a self-sustaining ecosystem where waste fuels energy,
+            and energy nourishes the soil— ensuring environmental balance,
+            economic resilience, and a better future for generations to come
+          </p>
+          <p>
+            To build a cleaner, greener, and more sustainable India by:
+            Transforming organic byproducts from renewable energy plants into
+            high-quality fertilizers. Empowering farmers with eco-friendly
+            agricultural solutions
+          </p>
+          <div class="about-features">
+            <div class="feature">
+              Transforming Bio-Manure into a Branded, Market-Ready Product
+            </div>
+            <div class="feature">Empowering Farmers with Digital Access</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <!-- <section class="partners" id="partners">
+      <h2 class="section-title">Our Partners</h2>
+      <div class="partners-grid">
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 1" />
+          </div>
+          <h3>Yash Verma</h3>
+          <p>Chief Executive officer</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 2" />
+          </div>
+          <h3>Akshay Srivastava</h3>
+          <p>CEO & Co-Founder LCB Fertilizers</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 3" />
+          </div>
+          <h3>Virender Sharma</h3>
+          <p>Chief Information Officer</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 3" />
+          </div>
+          <h3>Sanyam Sharm</h3>
+          <p>Head of Product Development</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 3" />
+          </div>
+          <h3>Tejas Bhutani</h3>
+          <p>Chief Operation Officer</p>
+        </div>
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Partner 3" />
+          </div>
+          <h3>Aniket Kamboj</h3>
+          <p>Chief Technology Officer</p>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="partners" id="partners">
+      <h2 class="section-title">Our Teams</h2>
+
+      <!-- Our Team -->
+      <div class="partners-grid">
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="members/yash.png" alt="Yash Verma" />
+          </div>
+          <h3>Yash Verma</h3>
+          <p>Chief Executive Officer</p>
+        </div>
+
+        <!-- <div class="partner-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Akshay Srivastava" />
+          </div>
+          <h3>Akshay Srivastava</h3>
+          <p>CEO & Co-Founder, LCB Fertilizers</p>
+        </div> -->
+
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="members/virender.png" alt="Virender Sharma" />
+          </div>
+          <h3>Virender Sharma</h3>
+          <p>Chief Information Officer</p>
+        </div>
+
+        <div class="partner-card">
+          <div class="partner-image">
+            <img src="members/tejas.jpeg" alt="Tejas Bhutani" />
+          </div>
+          <h3>Tejas Bhutani</h3>
+          <p>Chief Operations Officer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mentor">
+      <!-- Our Mentors -->
+
+      <h2 class="section-title">Our Mentors</h2>
+      <div class="partners-grid">
+        <div class="partner-card mentor-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Mentor Name" />
+          </div>
+          <h3>Mentor Name</h3>
+          <p>Industry Expert / Advisor</p>
+        </div>
+        <div class="partner-card mentor-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Mentor Name" />
+          </div>
+          <h3>Mentor Name</h3>
+          <p>Industry Expert / Advisor</p>
+        </div>
+        <div class="partner-card mentor-card">
+          <div class="partner-image">
+            <img src="toon.png" alt="Mentor Name" />
+          </div>
+          <h3>Mentor Name</h3>
+          <p>Industry Expert / Advisor</p>
+        </div>
+
+        <!-- Add more mentors here -->
+      </div>
+    </section>
+
+    <!-- our potrait video -->
+
+    <section class="abouts" id="abouts">
+      <h2 class="section-title">About Us</h2>
+
+      <div class="abouts-content">
+        <!-- LEFT: Portrait Video -->
+        <div class="abouts-video">
+          <video
+            src="HINDI JEEVANI.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+        </div>
+
+        <!-- RIGHT: Content -->
+        <div class="abouts-text">
+          <h3>BioSanjeevani Sustainable Solutions Pvt. Ltd.</h3>
+          <p>
+            Our Company help organizations save costs, generate revenue, and
+            improve operational efficiency through sustainable practices.
+          </p>
+          <p>
+            Transforms organic waste and biogas slurry into market-ready
+            fertilizers. Creates additional income streams for gaushalas, FPOs,
+            and institutions.
+          </p>
+
+          <div class="abouts-features">
+            <div class="feature">Cost Reduction & Efficiency</div>
+            <div class="feature">Revenue Generation & Waste Monetization</div>
+            <div class="feature">Bulk Supply & Customized Packaging</div>
+            <div class="feature">Subscription & Long-Term Supply Models</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+      <h2 class="section-title">Our Services</h2>
+      <div class="blog-carousel">
+        <div class="blog-track" id="blogTrack">
+          <div class="blog-card">
+            <div class="blog-content">
+              <div class="blog-image">🌾</div>
+              <div class="blog-text">
+                <div class="date">November 28, 2024</div>
+                <h3>The Future of Organic Farming</h3>
+                <p>
+                  Discover how organic farming techniques are revolutionizing
+                  agriculture and helping combat climate change. Learn about the
+                  latest innovations in sustainable farming practices and their
+                  impact on food security.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-content">
+              <div class="blog-image">🌍</div>
+              <div class="blog-text">
+                <div class="date">November 15, 2024</div>
+                <h3>Climate Change Solutions</h3>
+                <p>
+                  Explore practical strategies for reducing carbon footprint in
+                  agriculture. From soil carbon sequestration to renewable
+                  energy integration, discover how farms can become climate
+                  positive.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-content">
+              <div class="blog-image">🌱</div>
+              <div class="blog-text">
+                <div class="date">November 3, 2024</div>
+                <h3>Benefits of Organic Fertilizers</h3>
+                <p>
+                  Understanding the advantages of organic fertilizers over
+                  chemical alternatives. Learn how natural fertilizers improve
+                  soil health, boost crop yields, and protect the environment
+                  for future generations.
+                </p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-nav">
+          <button id="blogPrev">← Previous</button>
+          <button id="blogNext">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <form class="contact-container" id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="your.email@example.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+1 (555) 000-0000" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            placeholder="Tell us how we can help you..."
+            required
+          ></textarea>
+        </div>
+
+        <button class="submit-btn" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>About BioSanjeevani Sustainable Solutions Pvt. Ltd.</h4>
+          <p>Convert Biomass into premium quality organic fertilizer.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#partners">Our Partners</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <p>📧 info@biosanjeevani.com</p>
+          <p>📞 +91 9138274100</p>
+          <p>
+            📍3th Floor, IIT Delhi Technopark (I-TEC) Plot No. 4B, RGEC, Rai,
+            Sonipat, Haryana - 131029
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          &copy; 2025 BioSanjeevani Sustainable Solutions Pvt. Ltd. All rights
+          reserved. | Building a sustainable future together.
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
